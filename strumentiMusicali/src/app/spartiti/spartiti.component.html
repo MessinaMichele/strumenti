@@ -1,0 +1,9 @@
+<div *ngFor="let spartito of spartiti">
+    <div>
+      <h3>{{ spartito.titolo }}</h3>
+      <p>Autore: {{ spartito.autore }}</p>
+      <p>Editore: {{ spartito.editore }}</p>
+      <p>Prezzo: {{ spartito.prezzo | currency }}</p>
+    </div>
+  </div>
+  

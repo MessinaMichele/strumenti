@@ -1,0 +1,8 @@
+<div *ngFor="let strumento of strumenti">
+    <div>
+      <h3>{{ strumento.marca }} - {{ strumento.modello }}</h3>
+      <p>Categoria: {{ strumento.categoria }}</p>
+      <p>Prezzo: {{ strumento.prezzo | currency }}</p>
+    </div>
+  </div>
+  
